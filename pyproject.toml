@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "importqwakmodelfrompackage"
+version = "0.1.0"
+description = ""
+authors = ["Bartosz Mikulski <mail@mikulskibartosz.name>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+
+[tool.poetry.dev-dependencies]
+qwak-sdk = {path = "/Users/myszon/Projects/qwak-platform/sdk/python/python-sdk", develop = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
